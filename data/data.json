@@ -4,7 +4,7 @@
             "img": "./images/projects/Catchoo_unsplash.jpeg",
             "alt": "Catchoo",
             "title": "Catchoo",
-            "description": "[React.js + Redux + Redux-Saga] + [Java + SpringBoot + MariaDB]",
+            "description": "Cat Weight Recording & Community Web App - [React.js + Redux] + [Java + SpringBoot + MariaDB]",
             "url": "https://github.com/asroq1/Project_Cats",
             "detail": "See GitHub"
         },
@@ -12,7 +12,7 @@
             "img": "./images/projects/CAB_ind.png",
             "alt": "Cities And Buildings",
             "title": "Cities And Buildings",
-            "description": "EJS + Node.js + Express + MongoDB",
+            "description": "Web App for Building Info - Node.js + Express + MongoDB",
             "url": "https://github.com/haileykr/CitiesAndBuildings",
             "detail": "See GitHub"
         },
@@ -28,7 +28,7 @@
             "img": "./images/projects/PaintTool.png",
             "alt": "Paint Tool",
             "title": "Simple Paint Tool",
-            "description": "HTML + CSS + VanillaJS",
+            "description": "HTML + CSS + VanillaJS + Canvas API",
             "url": "https://haileykr.github.io/paintJS",
             "detail": "See Webpage"
         },
