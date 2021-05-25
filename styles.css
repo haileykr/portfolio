@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 body {
   font-family: "Noto Sans KR", sans-serif;
   line-height: 1;
@@ -52,27 +51,22 @@ header {
   color: var(--clr-almost-black);
   font-weight: 900;
   font-size: 2rem;
-
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
 .nav-item .nav-link {
   margin-left: 1rem;
+  color:#2b2d13;
   font-weight: 900;
   font-size: 1.25rem;
-
   cursor: pointer;
   padding: 0.5rem 1rem;
-  color: var(--clr-warm-gray);
   text-shadow: whitesmoke 1px 0 3px;
   border-radius: 15px;
-
   transition: all 0.5s;
 }
-
-.nav-link:hover,
-.nav-link:focus {
+.nav-link:hover,.nav-link:focus {
   background-color: var(--clr-light-green);
   color: olive;
 }
@@ -166,12 +160,53 @@ header {
   font-weight: 900;
 }
 
+
+
+/* Education */
+.education-wrapper .logos {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid lightgray;
+
+  background-color: whitesmoke;
+}
+
+.education-wrapper .education-list {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.education-wrapper .education-list h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Tech Stack */
+.tech-stack-wrapper img {
+  width: 150px; height: 2.5rem;
+}
+.tech-stack-wrapper .row{
+  margin: 0.5rem;
+}
+.tech-stack-wrapper {
+  width: 80%;
+  
+}
+
+
+
+
+
+
+
+
+
 /* Projects */
 
 .card {
   display: inline-block;
-  cursor: pointer;
-
+  
   border-radius: 0px 0px 17.1px 17.1px;
 
   transition: 0.3s ease-in-out;
@@ -208,26 +243,6 @@ header {
 
 .card-body {
   min-height: 220px;
-}
-
-/* Education */
-.education-wrapper .logos {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 2px solid lightgray;
-
-  background-color: whitesmoke;
-}
-
-.education-wrapper .education-list {
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.education-wrapper .education-list h2 {
-  font-size: 1.5rem;
-  font-weight: bold;
 }
 
 /* Experiences */
