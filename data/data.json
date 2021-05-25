@@ -1,0 +1,93 @@
+{
+    "projects": [
+        {
+            "img": "./images/projects/Catchoo_unsplash.jpeg",
+            "alt": "Catchoo",
+            "title": "Catchoo",
+            "description": "[React.js + Redux + Redux-Saga] + [Java + SpringBoot + MariaDB]",
+            "url": "https://github.com/asroq1/Project_Cats",
+            "detail": "See GitHub"
+        },
+        {
+            "img": "./images/projects/CAB_ind.png",
+            "alt": "Cities And Buildings",
+            "title": "Cities And Buildings",
+            "description": "EJS + Node.js + Express + MongoDB",
+            "url": "https://github.com/haileykr/CitiesAndBuildings",
+            "detail": "See GitHub"
+        },
+        {
+            "img": "./images/projects/Webpages.png",
+            "alt": "Simple Web Pages",
+            "title": "Simple Web Pages",
+            "description": "HTML/CSS/JS + API/Libraries",
+            "url": "https://haileykr.github.io/2021/04/01/Simple-Web-Pages.html",
+            "detail": "See Descriptions"
+        },
+        {
+            "img": "./images/projects/PaintTool.png",
+            "alt": "Paint Tool",
+            "title": "Simple Paint Tool",
+            "description": "HTML + CSS + VanillaJS",
+            "url": "https://haileykr.github.io/paintJS",
+            "detail": "See Webpage"
+        },
+        {
+            "img": "./images/projects/TIL.png",
+            "alt": "TIL",
+            "title": "TIL (Today I Leanred) Repository",
+            "description": "Repository of things I learn",
+            "url": "https://github.com/haileykr/Today-I-Learned-TIL-",
+            "detail": "See GitHub"
+        },
+        {
+            "img": "./images/projects/cote.png",
+            "alt": "Coding Test + Algorithm Study",
+            "title": "Coding Test + Algorithm Study",
+            "description": "Record of Practicing Coding Test and Algorithm",
+            "url": "https://github.com/shirohoo/Practice-Algorithm/tree/develop/Hailey-Kim",
+            "detail": "See GitHub"
+        }
+    ],
+    
+    "education": [
+        {
+            "img": "./images/icons/education/bi_main_emblem.png",
+            "alt": "ACBS",
+            "period": "[2020.08 ~ present]",
+            "title": "Academic Credit Bank System (ACBS) - South Korea",
+            "degree": "B.Eng in Computer Science (Expected August 2021)"
+        },
+        {
+            "img": "./images/icons/education/mit.png",
+            "alt": "MIT",
+            "period": "[2016.09 ~ 2017.06]",
+            "title": "Massachusetts Institute of Technology (MIT) - Cambridge, MA, USA",
+            "degree": "M.Eng in Civil and Environmental Engineering"
+        },
+        {
+            "img": "./images/icons/education/CU.png",
+            "alt": "Cooper Union",
+            "period": "[2012.09 ~ 2016.06]",
+            "title": "The Cooper Union for the Advancement of Science and Art - New York, NY, USA",
+            "degree": "B.Eng in Civil and Environmental Engineering"
+        }
+    ],
+    
+    "experiences": [
+        {
+            "img": "./images/icons/experience/1pr.jpg",
+            "alt": "EOC",
+            "period": "[2019.11 ~ 2020.07] ",
+            "name": "Eckersley O'Callaghan - New York, NY",
+            "title": "Senior Structural Engineer"
+        },
+        {
+            "img": "./images/icons/experience/Vessel.png",
+            "alt": "TT",
+            "period": "[2017.08 ~ 2019.10] ",
+            "name": "Thornton Tomasetti - New York, NY",
+            "title": "Structural Engineer"
+        }
+    ]
+}
