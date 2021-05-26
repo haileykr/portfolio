@@ -4,7 +4,7 @@
 function loadExperience() {
   return fetch("data/data.json")
     .then((response) => response.json())
-    .then((result) => result.experiences);
+    .then((result) =>result[langOption.toLowerCase()].experiences);
 }
 // add loaded projects to index.html page
 function createExperienceList(experience) {
@@ -37,6 +37,12 @@ function displayExperienceList(experiences) {
     .join("");
 }
 
-loadExperience().then((experiences) => {
+
+
+function showExperienceList(){
+  loadExperience().then((experiences) => {
   displayExperienceList(experiences);
 });
+
+}
+showExperienceList();

@@ -1,5 +1,5 @@
 "use strict";
-
+// scroll events
 const header = document.querySelector("header");
 const headerHeight = header.getBoundingClientRect().height;
 const sparkles = document.querySelector(".sparkles");
@@ -10,7 +10,6 @@ document.addEventListener("scroll", () => {
   } else {
     header.classList.remove("header-up");
   }
-  console.dir(sparkles);
 
   if (
     window.scrollY + window.innerHeight <
@@ -63,6 +62,34 @@ introBtn.addEventListener("click", () => {
 arrow.addEventListener("click", () => {
   scrollIntoView("#home");
 });
+
+// Language Setting
+let langOption = "en";
+
+function setLanguage(e) {
+  const enBtn = document.querySelector("#en");
+  const koBtn = document.querySelector("#ko");
+
+  enBtn.classList.toggle("activeLangButton");
+
+  koBtn.classList.toggle("activeLangButton");
+
+  langOption = e.target.innerText;
+
+  showAbout();
+  showEducation();
+
+  showProjectList();
+
+  showExperienceList();
+}
+
+const languageSelector = document.querySelector(".language-selector");
+languageSelector.addEventListener(
+  "click",
+
+  setLanguage
+);
 
 // Email - Clipboard Funcionality
 const clipboard = new ClipboardJS(".copy-btn");

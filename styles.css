@@ -19,7 +19,6 @@ img {
   margin-top: 3rem;
   margin-bottom: 3rem;
   color: #deaa6a;
-
   text-align: center;
 }
 
@@ -59,7 +58,7 @@ header {
   margin-left: 1rem;
   color: #2b2d13;
   font-weight: 900;
-  font-size:1rem;
+  font-size: 1rem;
   cursor: pointer;
   padding: 0.5rem 1rem;
   text-shadow: whitesmoke 1px 0 3px;
@@ -70,6 +69,27 @@ header {
 .nav-link:focus {
   background-color: var(--clr-light-green);
   color: olive;
+}
+
+.language-selector {
+  display: inline-block;
+  color: var(--clr-almost-black);
+  margin-left: 1rem;
+}
+
+.language-selector button {
+  transition: all 0.5s;
+}
+
+.language-selector button:hover {
+  color: var(--clr-light-green);
+  text-decoration: underline var(--clr-light-green);
+}
+
+.activeLangButton {
+  color: var(--clr-green);
+  transform: scale(1.2);
+  text-decoration: underline var(--clr-green);
 }
 
 /* Home */
@@ -218,7 +238,7 @@ header {
   transform: translateY(-5px);
 }
 .card-img-top {
-  height: 300px;
+  height: 250px;
 }
 
 .card-title {

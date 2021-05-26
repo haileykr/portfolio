@@ -4,7 +4,7 @@
 function loadEducation() {
   return fetch("data/data.json")
     .then((response) => response.json())
-    .then((result) => result.education);
+    .then((result) => result[langOption.toLowerCase()].education);
 }
 // add loaded projects to index.html page
 function createEducationList(education) {
@@ -37,6 +37,10 @@ function displayEducationList(educations) {
     .join("");
 }
 
-loadEducation().then((educations) => {
-  displayEducationList(educations);
-});
+function showEducation() {
+  loadEducation().then((educations) => {
+    displayEducationList(educations);
+  });
+}
+
+showEducation();

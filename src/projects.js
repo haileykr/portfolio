@@ -4,7 +4,7 @@
 function loadProjects() {
   return fetch("data/data.json")
     .then((response) => response.json())
-    .then((result) => result.projects);
+    .then((result) => result[langOption.toLowerCase()].projects);
 }
 // add loaded projects to index.html page
 function createCard(card) {
@@ -38,6 +38,10 @@ function displayCards(cards) {
   projectList.innerHTML = cards.map((card) => createCard(card)).join("");
 }
 
-loadProjects().then((cards) => {
+function showProjectList(){
+  loadProjects().then((cards) => {
   displayCards(cards);
 });
+
+}
+showProjectList();

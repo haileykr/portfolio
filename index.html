@@ -41,7 +41,10 @@
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="styles.css" />
     <script defer src="src/app.js"></script>
+
     <script defer src="src/projects.js"></script>
+    <script defer src="src/about.js"></script>
+
     <script defer src="src/education.js"></script>
     <script defer src="src/experience.js"></script>
   </head>
@@ -50,8 +53,12 @@
       <!-- Navbar -->
       <header class="pt-3">
         <nav class="row navbar navbar-expand-lg">
-          <div class="col col-lg-3 col-6">
+          <div class="col col-lg-3 col-6 d-flex">
             <a class="navbar-brand ps-5" href="#">HK</a>
+            <div class="language-selector">
+              <button class="btn activeLangButton" id="en">EN</button>
+              <button class="btn" id="ko">KO</button>
+            </div>
           </div>
           <div class="col col-lg-9 col-6">
             <button
@@ -128,7 +135,10 @@
 
             <h1>Hailey Kim</h1>
             <h3>Full-Stack Web Developer</h3>
-            <button id="introBtn">READ MORE</button> <span class="introBtnHide"><i class="fas fa-chevron-down"></i></span>
+            <button id="introBtn">READ MORE</button>
+            <span class="introBtnHide"
+              ><i class="fas fa-chevron-down"></i
+            ></span>
           </div>
         </section>
       </div>
@@ -136,34 +146,7 @@
       <div class="row">
         <section id="about" class="col-12 about-wrapper">
           <h2 class="title">ABOUT</h2>
-          <p class="description mx-auto">
-            <span>Hello!</span>
-            I am <span>Hailey Kim</span>, studying Computer Engineering to be a
-            full-stack developer and software engineer.<br /><br />
-            I am a <span>professional structural engineer (P.E)</span> who practiced in the
-            industry for 3 years with a <span>B.Eng and M.Eng in Civil Engineering. </span>
-            Experiences in construction industry had me realize how software
-            tools can improve precision and efficiency of any task, and lead
-            innovations in any field. <br />
-            Equipped with <span>problem-solving skills and engineering mindset</span>, I
-            would love to lead innovations working in technology field and more.
-            <br /><br />
-
-            I am currently studying Computer Engineering online through ACBS
-            (Academic Credit Bank System) run by the South Korean government, to
-            fulfill my thirst in enhancing knowledge in CS major. I am expecting
-            to get a <span>B.Eng in Computer Engineering in August, 2021. </span><br />
-            <br />
-
-            On top of <span>school classes</span>, I have been taking <span>online courses of my
-            interest</span>, actively worked on my <span>toy projects</span>, practiced <span>algorithms
-            and coding tests</span>, and joined study groups on an online community to
-            gain momentum with peers.<br />
-            <br />
-
-            I am proficient in using Python and JavaScript, and skillful in
-            building web apps with React.js and Node.js.
-          </p>
+          <p class="description mx-auto"></p>
         </section>
       </div>
 
