@@ -9,27 +9,27 @@ function loadProjects() {
 // add loaded projects to index.html page
 function createCard(card) {
   return `
-  <div class = "col col-xl-4 col-md-6 col-12 ">
-        <div class="card m-2">
-            <img class = "card-img-top" src="${card.img}" alt="${card.alt}" />
-            <div class="card-body">
-                <h2 class="card-title my-2">${card.title}</h2>
+    <div class = "col col-xl-4 col-md-6 col-12 ">
+      <div class="card m-2">
+        <img class = "card-img-top" src="${card.img}" alt="${card.alt}" />
+        <div class="card-body">
+          <h2 class="card-title my-2">${card.title}</h2>
                 
-                <p class="card-text">
-                    ${card.description}
-                </p>
-                <a
+          <p class="card-text">
+            ${card.description}
+          </p>
+          <a
                     
-                    href = "${card.url}"
-                    class = "mt-3 py-2 card-button btn"
-                    target ="_blank"
-                    rel = "noopener noreferrer"
-                    > ${card.detail}
-                    </a>
-                    </div>
-                    </div>
-                    </div>
-                    `;
+            href = "${card.url}"
+            class = "mt-3 py-2 card-button btn"
+            target ="_blank"
+            rel = "noopener noreferrer"
+          > ${card.detail}
+          </a>
+        </div>
+      </div>
+    </div>
+  `;
 }
 
 // render loaded projects

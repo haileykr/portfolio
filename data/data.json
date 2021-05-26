@@ -1,10 +1,10 @@
 {
     "projects": [
         {
-            "img": "./images/projects/Catchoo_unsplash.jpeg",
+            "img": "./images/projects/Catchoo_Compilations.png",
             "alt": "Catchoo",
             "title": "Catchoo",
-            "description": "Cat Weight Recording & Community Web App - [React.js + Redux] + [Java + SpringBoot + MariaDB]",
+            "description": "Cat Weight Recording Web App - [React.js + Redux] + [Java + SpringBoot + MariaDB]",
             "url": "https://github.com/asroq1/Project_Cats",
             "detail": "See GitHub"
         },
@@ -49,7 +49,6 @@
             "detail": "See GitHub"
         }
     ],
-    
     "education": [
         {
             "img": "./images/icons/education/bi_main_emblem.png",
@@ -73,7 +72,6 @@
             "degree": "B.Eng in Civil and Environmental Engineering"
         }
     ],
-    
     "experiences": [
         {
             "img": "./images/icons/experience/1pr.jpg",
