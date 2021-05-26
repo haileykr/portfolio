@@ -57,16 +57,17 @@ header {
 
 .nav-item .nav-link {
   margin-left: 1rem;
-  color:#2b2d13;
+  color: #2b2d13;
   font-weight: 900;
-  font-size: 1.25rem;
+  font-size:1rem;
   cursor: pointer;
   padding: 0.5rem 1rem;
   text-shadow: whitesmoke 1px 0 3px;
   border-radius: 15px;
   transition: all 0.5s;
 }
-.nav-link:hover,.nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
   background-color: var(--clr-light-green);
   color: olive;
 }
@@ -90,7 +91,7 @@ header {
 
 .home-wrapper h3 {
   margin: 1.25rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .home-wrapper #homeImage {
@@ -104,7 +105,7 @@ header {
 .greetings {
   color: var(--clr-almost-black);
   white-space: nowrap;
-  font-size: 3rem;
+  font-size: 2rem;
   z-index: 5;
   cursor: default;
 }
@@ -117,6 +118,8 @@ header {
   height: 250px;
   border-radius: 50%;
   border: 1px double whitesmoke;
+
+  box-shadow: 0 0 10px whitesmoke;
 }
 
 .greetings #introBtn {
@@ -143,15 +146,11 @@ header {
   color: whitesmoke;
   text-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   transition: all 0.5s;
-  
 }
-
-
-
 
 .greetings #introBtn:hover + .introBtnHide {
   opacity: 1;
-  transform: translateY(10px)  scale(1.2);
+  transform: translateY(10px) scale(1.2);
 }
 .intro-wrapper {
   position: relative;
@@ -173,8 +172,6 @@ header {
 .description span {
   font-weight: 900;
 }
-
-
 
 /* Education */
 .education-wrapper .logos {
@@ -198,37 +195,26 @@ header {
 
 /* Tech Stack */
 .tech-stack-wrapper img {
-  width: 150px; height: 2.5rem;
+  width: 150px;
+  height: 2.5rem;
 }
-.tech-stack-wrapper .row{
+.tech-stack-wrapper .row {
   margin: 0.5rem;
 }
 .tech-stack-wrapper {
   width: 80%;
-  
 }
-
-
-
-
-
-
-
-
 
 /* Projects */
 
 .card {
   display: inline-block;
-  
   border-radius: 0px 0px 17.1px 17.1px;
-
   transition: 0.3s ease-in-out;
 }
 
 .card:hover {
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-
   transform: translateY(-5px);
 }
 .card-img-top {
@@ -236,15 +222,13 @@ header {
 }
 
 .card-title {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 900;
 }
 
 .card-text {
   color: var(--clr-warm-gray);
-
-  font-size: 1.25rem;
-
+  font-size: 1rem;
   line-height: 1.5;
 }
 
@@ -253,9 +237,7 @@ header {
   color: var(--clr-light-greengreen);
   background-color: lightgray;
   border-radius: 15px;
-
   margin: 0.5rem;
-  
   position: fixed;
   bottom: 0;
   right: 0;
@@ -263,7 +245,7 @@ header {
 
 .card-body {
   min-height: 220px;
-  filter:drop-shadow(1px 1px 1px lightgray);
+  filter: drop-shadow(1px 1px 1px lightgray);
 }
 
 /* Experiences */
@@ -272,7 +254,6 @@ header {
   height: 100px;
   border-radius: 50%;
   border: 2px solid lightgray;
-
   background-color: whitesmoke;
 }
 
@@ -306,21 +287,15 @@ header {
 }
 
 /* Contacts */
-
 .contacts-wrapper .font-awesome {
   color: var(--clr-green);
   font-size: 3rem;
-
   margin-bottom: 2rem;
-
   padding: 1rem;
   border-radius: 50%;
-
   border: 2px solid var(--clr-green);
   border-bottom: 6px solid var(--clr-green);
-
   cursor: pointer;
-
   background-color: var(--clr-light-green);
   z-index: 2;
 }
@@ -328,7 +303,6 @@ header {
 .contacts-wrapper .contacts-box li {
   font-size: 1.25rem;
   line-height: 1.5;
-
   display: inline-block;
   width: 100px;
 }
