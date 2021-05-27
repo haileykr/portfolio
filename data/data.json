@@ -137,8 +137,8 @@
             {
                 "img": "./images/projects/mario.png",
                 "alt": "Games",
-                "title": "Pong + Mario Games",
-                "description": "Replications of Pong and simple Mario Game<br />-Lua with L‎ÖVE",
+                "title": "Pong + Mario",
+                "description": "Pong과 간단한 Mario 게임들 구현<br />-Lua with L‎ÖVE",
                 "url": "https://github.com/haileykr/game-making",
                 "detail": "See GitHub"
             },

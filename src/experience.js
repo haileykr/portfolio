@@ -11,7 +11,7 @@ function createExperienceList(experience) {
   return `
   
           <li class="row d-flex justify-content-center  my-3">
-            <div class="d-flex justify-content-end col col-3 ">
+            <div class =   " d-none d-md-flex justify-content-end col col-3 ">
               <img
                 class="logos"
                 src="${experience.img}"
