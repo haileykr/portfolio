@@ -3,6 +3,13 @@ body {
   font-family: "Noto Sans KR", sans-serif;
   line-height: 1;
   background: linear-gradient(#fff, rgb(247, 243, 221));
+
+  width: 100vw;
+}
+
+section {
+  width: 100%;
+  margin: 0;
 }
 
 a {
