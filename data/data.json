@@ -1,14 +1,13 @@
 {
     "en": {
-        
-        
-        
-        
-        
-        
-        
-        
-        "categories": ["ABOUT", "EDUCATION", "TECH STACK", "PROJECTS", "EXPERIENCES", "CONTACTS"],
+        "categories": [
+            "ABOUT",
+            "EDUCATION",
+            "TECH STACK",
+            "PROJECTS",
+            "EXPERIENCES",
+            "CONTACTS"
+        ],
         "about": "<span>Hello,</span> I am <span>Hailey Kim</span>, studying Computer Engineering to be a full-stack developer and software engineer.<br /><br /> I am a <span>professional structural engineer (P.E)</span> who practiced in the industry for 3 years with a <span>B.Eng and M.Eng in Civil Engineering. </span> Experiences in construction industry had me realize how software tools can improve precision and efficiency of any task, and lead innovations in any field. <br />Equipped with <span>problem-solving skills and engineering mindset</span>, I would love to lead innovations working in technology field and more. <br /><br />I am currently studying Computer Engineering online through ACBS (Academic Credit Bank System) run by the South Korean government, to fulfill my thirst in enhancing knowledge in CS major. I am expecting to get a <span>B.Eng in Computer Engineering in August, 2021. </span><br /><br /> On top of <span>school classes</span>, I have been taking <span>online courses of my interest</span>, actively worked on my <span>toy projects</span>, practiced <span>algorithms and coding tests</span>, and joined study groups on an online community to gain momentum with peers.<br /> <br /> I am proficient in using Python and JavaScript, and skillful in building web apps with React.js and Node.js",
         "projects": [
             {
@@ -48,7 +47,7 @@
                 "alt": "Personality Test",
                 "title": "16 Personality Test",
                 "description": "MBTI Personality Test Made for Fun (in Korean) <br />-Built with VanillaJS",
-                "url":"https://haileykr.github.io/my-mbti",
+                "url": "https://haileykr.github.io/my-mbti",
                 "detail": "See GitHub"
             },
             {
@@ -117,9 +116,14 @@
         ]
     },
     "한국어": {
-        
-        "categories": 
-                [ "소개", "학력", "기술 스택", "프로젝트", "경력", "연락처"],
+        "categories": [
+            "소개",
+            "학력",
+            "기술 스택",
+            "프로젝트",
+            "경력",
+            "연락처"
+        ],
         "about": "<span>안녕하세요,</span> 풀스택 웹 개발자, 더 나아가 소프트웨어 엔지니어가 되고자 컴퓨터 공학을 공부하고 있는 <span>김해리</span>입니다.<br/><br/> 저는 <span>미국 캘리포니아 주 건축사 자격증</span>을 갖고 있으며, 캠브릿지 MIT에서 <span>토목환경공학부 석사 (M.Eng)</span>와  뉴욕 Cooper Union에서 <span>학사 (B.Eng)</span>를 취득한 후 <span>건축공학 분야에서 3년 동안 실무</span>에 임했습니다.<br/><br/> 건축 / 건설 분야에서 일하면서 컴퓨터 기술이 얼마나 업무의 정확성과 효율성을 증가시켜줄 수 있는 지 깨달았고, 어떤 분야든 기술 도입을 통해 크게 발전할 수 있음을 느꼈습니다. 문제 해결 능력, 이과적 / 공학적 사고 방식으로 무장하여, <span>컴퓨터 분야와 그 이상에서 발전과 혁신을 이끄는 데에 일조</span>하고 싶습니다.<br /><br /> 컴퓨터 전공 분야 지식에 대한 갈증으로, 현재 대한민국 국가평생교육원에서 운영하는 학점은행제 수업을 듣고 있습니다. <span>2021년 8월에 교육부장관 명의의 컴퓨터공학 타전공학사를 취득</span>할 예정입니다. 이론 수업의 한계를 넘고자, 온라인으로 <span>관심있는 언어와 실무 기술에 대한 수업들을 들어왔으며, 토이 프로젝트를 진행하고, 코딩테스트와 알고리즘 공부를 병행</span>하며, 온라인 개발자 커뮤니티에서 스터디 그룹을 구해 혼자서 공부하는 환경의 단점을 이기고자 했습니다.<br /><br />  파이썬과 자바스크립트를 잘 구사할 수 있으며, 리액트와 노드로 웹 앱을 만드는 데에 비교적 능숙합니다.",
         "projects": [
             {
@@ -166,7 +170,7 @@
                 "img": "./images/projects/personality.png",
                 "alt": "Personality Test",
                 "title": "성격 테스트",
-                "description":"재미로 만들어 본 성격테스트 사이트 <br />-Built with VanillaJS",
+                "description": "재미로 만들어 본 성격테스트 사이트 <br />-Built with VanillaJS",
                 "url": "https://haileykr.github.io/my-mbti",
                 "detail": "See Webpage"
             },
