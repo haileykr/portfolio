@@ -35,6 +35,14 @@
                 "detail": "See GitHub"
             },
             {
+                "img": "./images/projects/personality.png",
+                "alt": "Personality Test",
+                "title": "16 Personality Test",
+                "description": "MBTI Personality Test Made for Fun (in Korean)",
+                "url":"https://haileykr.github.io/my-mbti",
+                "detail": "See GitHub"
+            },
+            {
                 "img": "./images/projects/WebPages.png",
                 "alt": "Simple Web Pages",
                 "title": "Simple Web Pages",
@@ -141,6 +149,14 @@
                 "description": "Pong과 간단한 Mario 게임들 구현<br />-Lua with L‎ÖVE",
                 "url": "https://github.com/haileykr/game-making",
                 "detail": "See GitHub"
+            },
+            {
+                "img": "./images/projects/personality.png",
+                "alt": "Personality Test",
+                "title": "성격 테스트",
+                "description": "재미로 만들어 본 성격테스트 사이트입니다",
+                "url": "https://haileykr.github.io/my-mbti",
+                "detail": "See Webpage"
             },
             {
                 "img": "./images/projects/TIL.png",
