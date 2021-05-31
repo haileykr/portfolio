@@ -108,7 +108,7 @@ function setLanguage(e) {
 
   koBtn.classList.toggle("activeLangButton");
 
-  langOption = e.target.innerText;
+  langOption = e.target.id;
 
   showCategories();
 

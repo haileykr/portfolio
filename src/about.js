@@ -13,11 +13,9 @@ function displayAbout(about) {
   aboutContainer.innerHTML = about;
 }
 
-function showAbout(){
+function showAbout() {
   loadAbout().then((about) => {
-  
-    displayAbout(about)
-});
-
+    displayAbout(about);
+  });
 }
 showAbout();
