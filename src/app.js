@@ -28,19 +28,18 @@ navbar.addEventListener("click", (e) => {
   if (link == null) {
     return;
   }
+  
   scrollIntoView(link);
 });
 
 // change opacity of home contents and arrow
 const greetings = document.querySelector(".greetings");
 const introBtn = document.getElementById("introBtn");
-
 const arrow = document.querySelector(".arrow-up");
 
 document.addEventListener("scroll", () => {
   greetings.style.opacity = 1 - window.scrollY / 800;
   introBtn.style.opacity = 1 - window.scrollY / 1300;
-
   if (window.scrollY > 300) {
     arrow.classList.add("visible");
   } else {
@@ -64,7 +63,6 @@ arrow.addEventListener("click", () => {
 });
 
 // Categories
-
 function loadCategories() {
   return fetch("data/data.json")
     .then((response) => response.json())
@@ -75,18 +73,14 @@ function setCategories(categories) {
   const abouts = document.querySelectorAll(".navAbout");
   const educations = document.querySelectorAll(".navEducations");
   const techStacks = document.querySelectorAll(".navTechStack");
-
   const projects = document.querySelectorAll(".navProjects");
-
   const experiences = document.querySelectorAll(".navExperiences");
   const contacts = document.querySelectorAll(".navContacts");
 
   abouts.forEach((about) => (about.innerText = categories[0]));
   educations.forEach((education) => (education.innerText = categories[1]));
   techStacks.forEach((techStack) => (techStack.innerText = categories[2]));
-
   projects.forEach((project) => (project.innerText = categories[3]));
-
   experiences.forEach((experience) => (experience.innerText = categories[4]));
   contacts.forEach((contact) => (contact.innerText = categories[5]));
 }
@@ -103,27 +97,20 @@ let langOption = "en";
 function setLanguage(e) {
   const enBtn = document.querySelector("#en");
   const koBtn = document.querySelector("#ko");
-
+  
   enBtn.classList.toggle("activeLangButton");
-
   koBtn.classList.toggle("activeLangButton");
-
   langOption = e.target.id;
-
   showCategories();
-
   showAbout();
   showEducation();
-
   showProjectList();
-
   showExperienceList();
 }
 
 const languageSelector = document.querySelector(".language-selector");
 languageSelector.addEventListener(
   "click",
-
   setLanguage
 );
 
