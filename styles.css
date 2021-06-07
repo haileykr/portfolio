@@ -113,6 +113,7 @@ header {
   height: 100%;
   object-fit: cover;
   pointer-events: none;
+  background-attachment:fixed;
   opacity: 0.8;
 }
 

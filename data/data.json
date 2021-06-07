@@ -35,6 +35,14 @@
                 "detail": "See Webpage"
             },
             {
+                "img": "./images/projects/Learning_log.png",
+                "alt": "Python + Django Web App",
+                "title": "Python + Django Web App",
+                "description": "Learning Log Web App<br />-Python + Django + SQLite + Heroku",
+                "url": "https://learning-log-python-and-django.herokuapp.com",
+                "detail": "See Webpage"
+            }, 
+            {
                 "img": "./images/projects/mario.png",
                 "alt": "Games",
                 "title": "Pong + Mario Games",
@@ -128,19 +136,27 @@
         "projects": [
             {
                 "img": "./images/projects/Catchoo_Compilations.png",
-                "alt": "Catchoo",
-                "title": "Catchoo",
+                "alt":"캣츄",
+                "title": "캣츄",
                 "description": "고양이 체중 기록 웹앱 <br/>- [React.js + Redux] + [Java + SpringBoot + MariaDB]",
                 "url": "https://github.com/asroq1/Project_Cats",
                 "detail": "See GitHub"
             },
             {
                 "img": "./images/projects/CAB_ind.png",
-                "alt": "Cities And Buildings",
-                "title": "Cities And Buildings",
+                "alt": "도시와 건물",
+                "title": "도시와 건물",
                 "description": "건축 팬들을 위한 정보 저장 웹앱 <br/>- Node.js + Express + MongoDB",
                 "url": "https://github.com/haileykr/CitiesAndBuildings",
                 "detail": "See GitHub"
+            },
+            {
+                "img": "./images/projects/Learning_log.png",
+                "alt": "파이썬 + 장고",
+                "title": "파이썬 + 장고 웹 앱",
+                "description": "배움 일기 웹 앱 <br />-Python + Django + SQLite + Heroku",
+                "url": "https://learning-log-python-and-django.herokuapp.com",
+                "detail": "See Webpage"
             },
             {
                 "img": "./images/projects/PaintTool.png",
