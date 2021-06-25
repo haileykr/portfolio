@@ -121,6 +121,13 @@ header {
   font-size: 1.5rem;
 }
 
+.home-wrapper #one-liner1{
+  margin-bottom: 0;
+}
+.home-wrapper #one-liner2{
+  margin-top: 0.75rem;
+}
+
 .home-wrapper #homeImage {
   z-index: 2;
 }
