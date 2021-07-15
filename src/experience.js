@@ -20,7 +20,7 @@ function createExperienceList(experience) {
             </div>
             <div class="col col-9">
               <h2>${experience.period}</h2>
-              
+
               <h2>${experience.name}</h2>
 
               <p>${experience.title}</p>
