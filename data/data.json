@@ -14,7 +14,7 @@
                 "img": "./images/projects/Catchoo_Compilations.png",
                 "alt": "Catchoo",
                 "title": "Catchoo",
-                "description": "Cat Weight Recording Web App <br/>- [React.js + Redux] + [Java + SpringBoot + MariaDB]",
+                "description": "Cat Weight Recording Web App <br/>- [React.js + Redux] + [Java + SpringBoot + MariaDB] + AWS",
                 "url": "https://github.com/asroq1/Project_Cats",
                 "detail": "See GitHub"
             },
@@ -22,9 +22,17 @@
                 "img": "./images/projects/CAB_ind.png",
                 "alt": "Cities And Buildings",
                 "title": "Cities And Buildings",
-                "description": "Web App for Building Info <br/>- Node.js + Express + MongoDB",
+                "description": "Web App for Building Info <br/>- Node.js + Express + MongoDB + Heroku",
                 "url": "https://github.com/haileykr/CitiesAndBuildings",
                 "detail": "See GitHub"
+            },
+            {
+                "img": "./images/projects/wesoodaa.png",
+                "alt": "WeSoodaa - Book Review Website",
+                "title": "WeSoodaa",
+                "description": "Book Review Web App<br/>- [React + Redux + Next.js] + [Node.js + Express + MySQL] + AWS",
+                "url": "http://wesoodaa.site",
+                "detail": "See Website"
             },
             {
                 "img": "./images/projects/PaintTool.png",
@@ -108,6 +116,13 @@
         ],
         "experiences": [
             {
+                "img": "./images/icons/experience/playauto.png",
+                "alt": "Playauto",
+                "period": "[2021.07 ~ present] ",
+                "name":"PlayAuto - Seoul, South Korea",
+                "title":"Intern, Software Engine Development Group"
+            },
+            {
                 "img": "./images/icons/experience/1pr.jpg",
                 "alt": "EOC",
                 "period": "[2019.11 ~ 2020.07] ",
@@ -138,7 +153,7 @@
                 "img": "./images/projects/Catchoo_Compilations.png",
                 "alt":"캣츄",
                 "title": "캣츄",
-                "description": "고양이 체중 기록 웹앱 <br/>- [React.js + Redux] + [Java + SpringBoot + MariaDB]",
+                "description": "고양이 체중 기록 웹앱 <br/>- [React.js + Redux] + [Java + SpringBoot + MariaDB] + AWS",
                 "url": "https://github.com/asroq1/Project_Cats",
                 "detail": "See GitHub"
             },
@@ -146,9 +161,17 @@
                 "img": "./images/projects/CAB_ind.png",
                 "alt": "도시와 건물",
                 "title": "도시와 건물",
-                "description": "건축 팬들을 위한 정보 저장 웹앱 <br/>- Node.js + Express + MongoDB",
+                "description": "건축 팬들을 위한 정보 저장 웹앱 <br/>- Node.js + Express + MongoDB + Heroku",
                 "url": "https://github.com/haileykr/CitiesAndBuildings",
                 "detail": "See GitHub"
+            },
+            {
+                "img": "./images/projects/wesoodaa.png",
+                "alt": "위수다 - 책 관련 커뮤니티",
+                "title": "WE:수다",
+                "description": "책 관련 커뮤니티 웹 앱<br/>- [React + Redux + Next.js] + [Node.js + Express + MySQL] + AWS",
+                "url": "http://wesoodaa.site",
+                "detail": "See Webpage"
             },
             {
                 "img": "./images/projects/Learning_log.png",
