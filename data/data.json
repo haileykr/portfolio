@@ -30,9 +30,9 @@
                 "img": "./images/projects/wesoodaa.png",
                 "alt": "WeSoodaa - Book Review Website",
                 "title": "WeSoodaa",
-                "description": "Book Review Web App<br/>- [React + Redux + Next.js] + [Node.js + Express + MySQL] + AWS",
-                "url": "http://wesoodaa.site",
-                "detail": "See Website"
+                "description": "Book Review Web App<br/>- [React + Redux + Next.js] + [Node.js + Express + MySQL] + [AWS + Nginx]", 
+                "url": "https://github.com/haileykr/wesoodaa",
+                "detail": "See GitHub"
             },
             {
                 "img": "./images/projects/PaintTool.png",
@@ -170,8 +170,8 @@
                 "alt": "위수다 - 책 관련 커뮤니티",
                 "title": "WE:수다",
                 "description": "책 관련 커뮤니티 웹 앱<br/>- [React + Redux + Next.js] + [Node.js + Express + MySQL] + AWS",
-                "url": "http://wesoodaa.site",
-                "detail": "See Webpage"
+                "url":"https://github.com/haileykr/wesoodaa",
+                "detail":"See GitHub"
             },
             {
                 "img": "./images/projects/Learning_log.png",
