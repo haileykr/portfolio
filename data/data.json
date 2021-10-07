@@ -15,7 +15,7 @@
                 "alt": "Stuvel",
                 "title": "Stuvel",
                 "description": "Video Chat Service for Study <br/>- [React.js + Recoil] + [SocketIO + PeerJS] + [Node.js + Express + Sequelize] + [Docker + AWS]",
-                "url": "https://github.com/wooju-memdori",
+                "url": "https://github.com/wooju-memdori/stuvel-web",
                 "detail": "See GitHub"
             },
             {
@@ -169,7 +169,7 @@
                 "alt": "스투블",
                 "title": "스투블",
                 "description": "실시간 화상 스터디 서비스 <br/>- [React.js + Recoil] + [SocketIO + PeerJS] + [Node.js + Express + Sequelize] + [Docker + AWS]",
-                "url": "https://github.com/wooju-memdori",
+                "url": "https://github.com/wooju-memdori/stuvel-web",
                 "detail": "See GitHub"
             },
             {
