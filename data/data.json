@@ -8,7 +8,7 @@
             "EXPERIENCES",
             "CONTACTS"
         ],
-        "about": "<span>Hello, world!</span><br/> I am <span>Hailey Kim</span>, a data strategy and web full-stack developer at ARUP, an engineering consulting firm.<br /><br /> I am also a <span>professional structural engineer (P.E)</span> who practiced in the industry for 3 years.</span>As a developer, I am developing and maintaining various applications where digital technology effectively and efficiently solves problems in the AEC (Architecture, Engineer, and Construction) industry. I lead and participate two or more projects every month, and actively communicate with other developers, engineers, and clients. Every project has different goals and pursue unique functionalities, and I keep learning new technologies to find and implement the best tech stack which suits them.<br/><br/>I am thankful to make positive impacts through digital technologies to the AEC field that I love, and see how my applications bring benefits to many people.",
+        "about": "<span>Hello, world! 👋</span><br/> I am <span>Hailey Kim</span>, a data strategy and web full-stack developer at ARUP, an engineering consulting firm.<br /><br /> I am also a <span>professional structural engineer (P.E)</span> who practiced in the industry for 3 years.</span>As a developer, I am creating and maintaining various applications where digital technology effectively and efficiently solves problems in the AEC (Architecture, Engineer, and Construction) industry. I lead and participate two or more projects every month, and actively communicate with other developers, engineers, and clients. Every project has different goals and pursue unique functionalities, and I keep learning new technologies to find and implement the best tech stack which suits them.<br/><br/>I am thankful to make positive impacts through digital technologies to the AEC field that I love, and see how my applications bring benefits to many people.",
         "projects": [
             {
                 "img": "./images/projects/stuvel.jpg",
@@ -135,7 +135,7 @@
                 "alt": "ARUP",
                 "period": "[2021.12 ~ present] ",
                 "name": "ARUP - New York, NY, USA",
-                "title": "Data Strategy Developer, ADE (Advanced Digital Engineering)"
+                "title": "Developer, ADE (Advanced Digital Engineering)"
             },
             {
                 "img": "./images/icons/experience/playauto.png",
